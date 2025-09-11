@@ -1,4 +1,16 @@
 ### Проверка API
 ### GET http://127.0.0.1:8000/
 
-GET http://127.0.0.1:8000/items/42?q=The_Ultimate_Question_of_Life,_the_Universe,_and_Everything.
+###GET http://127.0.0.1:8000/items/42?q=The_Ultimate_Question_of_Life,_the_Universe,_and_Everything.
+
+PUT http://127.0.0.1:8000/items/13
+accept: application/json
+Content-Type: application/json
+
+{
+  "name": "Tesla",
+  "price": 10000,
+  "product_description": "Electric car",
+  "review": "",
+  "is_offer": true
+}
